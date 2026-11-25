@@ -120,6 +120,7 @@ A continuación, se detalla lo que se realiza en cada fase representada en el es
 * **TABLA HUESPED:** Separa los datos personales de los clientes (`DNI` como PK, nombre, nacionalidad, correo y teléfono), eliminando la dependencia transitiva que existía dentro de las reservas.
 * **TABLA RESERVA y TABLA DETALLES_RESERVA:** Desglosan la cabecera de la reserva (`ID_RESERVA` como PK vinculada al huésped) y el detalle de las habitaciones asignadas a cada reserva (`ID_RESERVA` y `NUM_HABITACION` como PK/FK compuesta).
 * **TABLA ESTANCIA y TABLA CONSUMO_SERVICIO:** Registran de manera limpia las estadías efectivas y los consumos de servicios adicionales vinculados a cada estancia.
-<img width="5102" height="2772" alt="EJERCICIO 7-FASES DE NORMALIZACION drawio" src="https://github.com/user-attachments/assets/f5b5e8e6-1143-4ae3-905e-f94a9e838f8e" />
+<img width="5152" height="2812" alt="EJERCICIO 7-FASES DE NORMALIZACION drawio" src="https://github.com/user-attachments/assets/a47a1dd8-df5f-4bd3-8171-9ca44f82aa44" />
+
 
 
